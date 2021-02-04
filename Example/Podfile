@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LQSDKPods_Tests' do
+  pod 'LQSDKPods', :path => '../'
+  
+  
+end
