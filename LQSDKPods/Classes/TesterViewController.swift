@@ -8,7 +8,6 @@
 
 import UIKit
 import ReactorKit
-import SDWebImage
 import RxCocoa
 
 class TesterViewController: UIViewController,View {
