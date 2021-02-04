@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '4.0', '4.2', '5.0'
 
-  s.source_files = 'LQSDKPods/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}
   # s.resource_bundles = {
   #   'LQSDKPods' => ['LQSDKPods/Assets/*.png']
@@ -38,7 +39,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.vendored_frameworks = 'LQSDKPods/Libs/TestGeneralFramework.framework'
+  s.vendored_frameworks = 'Libs/TestGeneralFramework.framework'
   
   s.dependency 'ReactorKit'
   s.dependency 'RxCocoa'

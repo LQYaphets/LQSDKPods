@@ -18,7 +18,12 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LQSDKPods/Classes/**/*",
+  "swift_versions": [
+    "4.0",
+    "4.2",
+    "5.0"
+  ],
+  "source_files": "Classes/**/*",
   "user_target_xcconfig": {
     "OTHER_LDFLAGS": [
       "-lObjC",
@@ -26,7 +31,7 @@
     ]
   },
   "frameworks": "UIKit",
-  "vendored_frameworks": "LQSDKPods/Libs/TestGeneralFramework.framework",
+  "vendored_frameworks": "Libs/TestGeneralFramework.framework",
   "dependencies": {
     "ReactorKit": [
 
@@ -37,5 +42,6 @@
     "RxCodable": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

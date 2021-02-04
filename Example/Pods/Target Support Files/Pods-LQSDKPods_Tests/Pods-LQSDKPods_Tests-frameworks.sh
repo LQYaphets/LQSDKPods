@@ -175,7 +175,7 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../LQSDKPods/Libs/TestGeneralFramework.framework"
+  install_framework "${PODS_ROOT}/../../Libs/TestGeneralFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LQSDKPods/LQSDKPods.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
@@ -185,7 +185,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/WeakMapTable/WeakMapTable.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../LQSDKPods/Libs/TestGeneralFramework.framework"
+  install_framework "${PODS_ROOT}/../../Libs/TestGeneralFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LQSDKPods/LQSDKPods.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
