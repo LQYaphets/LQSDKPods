@@ -1,0 +1,6 @@
+framework module LQSDKPods {
+  umbrella header "LQSDKPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

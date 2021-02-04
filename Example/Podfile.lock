@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - LQSDKPods (0.1.0):
+    - AFNetworking (~> 2.3)
+    - ReactorKit
+    - SDWebImage (~> 5.0)
+  - ReactorKit (2.1.1):
+    - RxSwift (~> 5.0)
+    - WeakMapTable (~> 1.1)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.10.3):
+    - SDWebImage/Core (= 5.10.3)
+  - SDWebImage/Core (5.10.3)
+  - WeakMapTable (1.2.0)
+
+DEPENDENCIES:
+  - LQSDKPods (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - ReactorKit
+    - RxSwift
+    - SDWebImage
+    - WeakMapTable
+
+EXTERNAL SOURCES:
+  LQSDKPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  LQSDKPods: 098ffadcfe49d8d726c65d613800d146ed33d213
+  ReactorKit: 6d894a20c3d508344320901cd8e386fde92df4b6
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: e378178472b735e84b007bfb55514c97948a0598
+  WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
+
+PODFILE CHECKSUM: 0daf2588f785ce0266149a4fc53cd6f3670dfc76
+
+COCOAPODS: 1.10.1
