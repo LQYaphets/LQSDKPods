@@ -1,6 +1,6 @@
 {
   "name": "LQSDKPods",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "summary": "A short description of LQSDKPods,Just a Tester",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LQYaphets/LQSDKPods",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LQYaphets/LQSDKPods.git",
-    "tag": "0.3.0"
+    "tag": "0.3.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -23,7 +23,6 @@
     "4.2",
     "5.0"
   ],
-  "source_files": "Classes/**/*",
   "user_target_xcconfig": {
     "OTHER_LDFLAGS": [
       "-lObjC",
@@ -31,7 +30,7 @@
     ]
   },
   "frameworks": "UIKit",
-  "vendored_frameworks": "Libs/TestGeneralFramework.framework",
+  "vendored_frameworks": "LQSDKPods/Libs/TestGeneralFramework.framework",
   "dependencies": {
     "ReactorKit": [
 
