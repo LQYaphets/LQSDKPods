@@ -27,12 +27,6 @@
   },
   "frameworks": "UIKit",
   "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
-    ],
-    "SDWebImage": [
-      "~> 5.0"
-    ],
     "ReactorKit": [
 
     ],
