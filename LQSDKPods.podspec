@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'LQSDKPods/Classes/**/*'
+  s.source_files = 'LQSDKPods/Classes/**/*'
   s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}
   # s.resource_bundles = {
   #   'LQSDKPods' => ['LQSDKPods/Assets/*.png']
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.vendored_frameworks = 'LQSDKPods/Classes/Libs/TestGeneralFramework'
+  s.vendored_frameworks = 'LQSDKPods/Libs/TestGeneralFramework.framework'
   
   s.dependency 'ReactorKit'
   s.dependency 'RxCocoa'
