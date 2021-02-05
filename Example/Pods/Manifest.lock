@@ -1,8 +1,9 @@
 PODS:
-  - LQSDKPods (0.3.2):
+  - LQSDKPods (0.3.3):
     - ReactorKit
     - RxCocoa
     - RxCodable
+    - SnapKit
   - ReactorKit (2.1.1):
     - RxSwift (~> 5.0)
     - WeakMapTable (~> 1.1)
@@ -16,6 +17,7 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SnapKit (4.2.0)
   - WeakMapTable (1.2.0)
 
 DEPENDENCIES:
@@ -28,6 +30,7 @@ SPEC REPOS:
     - RxCodable
     - RxRelay
     - RxSwift
+    - SnapKit
     - WeakMapTable
 
 EXTERNAL SOURCES:
@@ -35,12 +38,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LQSDKPods: 3cc53aaeb2018731087f6f42bc53653ed758ad25
+  LQSDKPods: cab40761665cc2bd12f90b37282387196925441c
   ReactorKit: 6d894a20c3d508344320901cd8e386fde92df4b6
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxCodable: 468b37793b66d804a5b1be16e817d7aab408b52b
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
 
 PODFILE CHECKSUM: 0daf2588f785ce0266149a4fc53cd6f3670dfc76
