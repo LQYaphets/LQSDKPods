@@ -1,6 +1,6 @@
 {
   "name": "LQSDKPods",
-  "version": "0.3.4",
+  "version": "0.3.6",
   "summary": "A short description of LQSDKPods,Just a Tester",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LQYaphets/LQSDKPods",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LQYaphets/LQSDKPods.git",
-    "tag": "0.3.4"
+    "tag": "0.3.6"
   },
   "platforms": {
     "ios": "9.0"
@@ -42,6 +42,9 @@
 
     ],
     "SnapKit": [
+
+    ],
+    "SDWebImage": [
 
     ]
   },

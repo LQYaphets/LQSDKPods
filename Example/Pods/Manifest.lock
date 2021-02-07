@@ -1,8 +1,9 @@
 PODS:
-  - LQSDKPods (0.3.4):
+  - LQSDKPods (0.3.6):
     - ReactorKit
     - RxCocoa
     - RxCodable
+    - SDWebImage
     - SnapKit
   - ReactorKit (2.1.1):
     - RxSwift (~> 5.0)
@@ -17,6 +18,9 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
   - SnapKit (4.2.0)
   - WeakMapTable (1.2.0)
 
@@ -30,6 +34,7 @@ SPEC REPOS:
     - RxCodable
     - RxRelay
     - RxSwift
+    - SDWebImage
     - SnapKit
     - WeakMapTable
 
@@ -38,12 +43,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LQSDKPods: c16f17f905f735a79ffab851f46d5030e747c6e2
+  LQSDKPods: f5678b6d0bf5cbcd7f4830713517f02b67b4242e
   ReactorKit: 6d894a20c3d508344320901cd8e386fde92df4b6
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxCodable: 468b37793b66d804a5b1be16e817d7aab408b52b
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
 

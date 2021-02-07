@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQSDKPods'
-  s.version          = '0.3.4'
+  s.version          = '0.3.6'
   s.summary          = 'A short description of LQSDKPods,Just a Tester'
 
 # This description is used to generate tags and improve search results.
@@ -45,5 +45,6 @@ TODO: Add long description of the pod here.
   s.dependency 'RxCocoa'
   s.dependency 'RxCodable'
   s.dependency 'SnapKit'
+  s.dependency 'SDWebImage'
   
 end
