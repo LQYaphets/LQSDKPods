@@ -1,5 +1,5 @@
 PODS:
-  - LQSDKPods (0.3.6):
+  - LQSDKPods (0.3.7):
     - ReactorKit
     - RxCocoa
     - RxCodable
@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LQSDKPods: f5678b6d0bf5cbcd7f4830713517f02b67b4242e
+  LQSDKPods: ef388c9109aeb52cf77787edccd463a7c9fa6684
   ReactorKit: 6d894a20c3d508344320901cd8e386fde92df4b6
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxCodable: 468b37793b66d804a5b1be16e817d7aab408b52b
