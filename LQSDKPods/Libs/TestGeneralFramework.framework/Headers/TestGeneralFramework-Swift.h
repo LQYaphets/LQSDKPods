@@ -215,6 +215,7 @@ SWIFT_CLASS("_TtC20TestGeneralFramework11NormalClass")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class NSCoder;
 @class NSBundle;
 
@@ -447,6 +448,7 @@ SWIFT_CLASS("_TtC20TestGeneralFramework11NormalClass")
 @interface NormalClass : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class NSCoder;
 @class NSBundle;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQSDKPods'
-  s.version          = '0.3.7'
+  s.version          = '0.3.8'
   s.summary          = 'A short description of LQSDKPods,Just a Tester'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0', '4.2', '5.0'
 
-  # s.source_files = 'LQSDKPods/Classes/**/*'
+  s.source_files = 'LQSDKPods/Classes/**/*'
   s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}
   # s.resource_bundles = {
   #   'LQSDKPods' => ['LQSDKPods/Assets/*.png']
